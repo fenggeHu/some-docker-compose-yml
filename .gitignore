@@ -1,2 +1,3 @@
 /zookeeper/zoo*
 /kafka/kafka*
+/redis/data*
