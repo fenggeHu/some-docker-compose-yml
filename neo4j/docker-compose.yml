@@ -1,0 +1,11 @@
+version: '2'
+services:
+    neo4j:
+      image: neo4j:latest
+      container_name: neo4j
+      # command: redis-server --requirepass 123456
+      ports:
+        - "7474:7474"
+        - "7687:7687"
+      volumes:
+        - "./data:/data"  # make data persistent 持久化
