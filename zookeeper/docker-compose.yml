@@ -60,5 +60,5 @@ services:
 
 networks:
   zookeepernet:
-    external:
-      name: zookeepernet
+    external: true
+    # name: zookeepernet
