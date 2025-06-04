@@ -1,3 +1,5 @@
 /zookeeper/zoo*
 /kafka/kafka*
-/redis/data*
+**/data/*
+
+.DS_Store
