@@ -8,3 +8,6 @@ services:
         - "7687:7687"
       volumes:
         - "./data:/data"  # make data persistent 持久化
+      environment:
+      # 设置初始用户名和密码（默认用户名是 neo4j）
+      - NEO4J_AUTH=neo4j/MH@123456
